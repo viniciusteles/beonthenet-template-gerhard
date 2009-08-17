@@ -1,0 +1,66 @@
+html * {
+  font:               normal 1em/1em "Trebuchet MS", Helvetica, Arial, sans-serif;
+  list-style:         none;
+}
+
+h1 {
+  font-size:          140%;
+  letter-spacing:     .07em;
+  text-transform:     uppercase;
+}
+
+a:link, a:visited {
+  text-decoration:    none;
+}
+a:hover {
+  text-decoration:    underline;
+}
+
+
+/* HEADER */
+#logo_screen a, #logo_screen a img {
+  font:               normal 220%/1em "Arial Narrow" Arial;
+}
+#logo_screen a img {
+  font-size:          100%;
+}
+
+#slogan {
+  font-size:          80% ;
+}
+
+#header li a {
+  font-size:          90%;
+}
+.current a {
+  text-decoration:    underline;
+}
+
+#global_search input {
+  font-size:          80%;
+}
+/* /HEADER */
+
+
+/* THUMBNAILS */
+#thumbnails h2 a {
+  font-weight:        bold;
+  font-size:          105%;
+}
+
+#thumbnails h3 a, 
+#thumbnails label {
+  font-weight:        bold;
+  font-size:          70%;
+  letter-spacing:     .2em;
+}
+
+#thumbnails label {
+  line-height:        17px;
+}
+
+#thumbnails div a {
+  text-decoration:    none;
+  text-align:         center;
+}
+/* THUMBNAILS */

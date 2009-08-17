@@ -1,0 +1,8 @@
+#thumbnails li div a {
+  display:                block;
+}
+#thumbnails li div span.ie {
+  display:                inline-block;
+  height:                 100%;
+  vertical-align:         middle;
+}

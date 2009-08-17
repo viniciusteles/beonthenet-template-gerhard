@@ -1,0 +1,173 @@
+﻿html, html * {
+  padding:      0;
+  border-width: 0;
+  outline:      none;
+  margin:       0;
+}
+
+body {
+  width:        716px;
+  margin:       0 auto;
+  position:     relative;
+}
+
+hr {
+  display:      block;
+  height:       0;
+  border:       none;
+  margin:       0;
+  clear:        both;
+  visibility:   hidden;
+}
+
+h1 {
+  padding:      1.2em 0;
+}
+
+
+/* HEADER */
+#header {
+  margin-top:   30px;
+  position:     relative;
+}
+
+#header p, #logo_screen {
+  border-width: 1px;
+  border-style: solid;
+}
+
+#header p {
+  padding:      6px;
+}
+
+#logo_screen {
+  display:      block;
+  width:        700px;
+  height:       140px;
+}
+
+#logo_screen a {
+  position:     absolute;
+  top:          62px;
+  right:        70px;
+}
+
+#logo_print {
+  display:      none;
+}
+
+#slogan {
+  position:     absolute;
+  top:          97px;
+  right:        70px;
+}
+
+#header ul {
+  height:       60px;
+}
+
+#header li {
+  float:        left;
+}
+
+#header li a {
+  display:      block;
+  padding:      .5em 10px;
+  border-width: 0 0 0 1px;
+  border-style: dotted;
+}
+
+#global_search {
+  width:        145px;
+/*  padding-left: 20px;*/
+  position:     absolute;
+  top:          -26px;
+  right:        2px;
+/*  border:                                         1px dotted red;*/
+}
+
+#global_search input {
+  width:        100%;
+  height:       15px;
+  border-width: 1px;
+  border-style: solid;
+}
+/* /HEADER */
+
+
+/* MAIN CONTENT */
+#main_content {
+/*  padding-top:  20px;*/
+}
+/* /MAIN CONTENT */
+
+
+/* THUMBNAILS */
+#thumbnails li {
+  float:        left;
+  height:       330px;
+  width:        298px;
+/*  outline:              1px dotted gray;*/
+  margin-bottom:  30px;
+  position:     relative;
+  padding:      0 30px;
+}
+#gallery #thumbnails li, #search #thumbnails li {
+  height:       250px;
+/*  outline:      1px dotted gray;*/
+}
+
+#thumbnails li.empty, 
+#gallery #thumbnails li.empty, #search #thumbnails li.empty {
+  float:        none;
+  clear:        both;
+  height:       0;
+}
+
+#thumbnails h2, #thumbnails h3, 
+#thumbnails label {
+  width:        298px;
+  position:     absolute;
+  top:          255px;
+  left:         30px;
+}
+#thumbnails h2 {
+  top:          275px;
+}
+#thumbnails label {
+  width:        auto;
+  padding:      0 3px 20px;
+  top:          0;
+  left:         0;
+}
+
+#thumbnails div a {
+  width:        298px;
+  height:       250px;
+  display:      table-cell;
+  vertical-align: middle;
+/*  outline:                    1px dotted blue;*/
+}
+
+#thumbnails img {
+  padding:      4px;
+  border-width: 1px;
+  border-style: solid;
+    vertical-align: middle;
+}
+/* /THUMBNAILS */
+
+
+/* FOOTER */
+#footer {
+  padding:      10px 0 20px;
+  border-width: 1px 0 0;
+  border-style: dotted;
+}
+
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+/* /FOOTER*/
