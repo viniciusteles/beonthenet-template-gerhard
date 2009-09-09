@@ -48,7 +48,7 @@ h1 {
 
 #logo_screen a {
   position:     absolute;
-  top:          62px;
+  top:          59px;
   right:        70px;
 }
 
@@ -117,13 +117,6 @@ h1 {
 /*  outline:      1px dotted gray;*/
 }
 
-#thumbnails li.empty, 
-#gallery #thumbnails li.empty, #search #thumbnails li.empty {
-  float:        none;
-  clear:        both;
-  height:       0;
-}
-
 #thumbnails h2, #thumbnails h3, 
 #thumbnails label {
   width:        298px;
@@ -132,7 +125,7 @@ h1 {
   left:         30px;
 }
 #thumbnails h2 {
-  top:          275px;
+  top:          280px;
 }
 #thumbnails label {
   width:        auto;
@@ -156,6 +149,47 @@ h1 {
     vertical-align: middle;
 }
 /* /THUMBNAILS */
+
+
+/* VIDEO THUMBNAILS */
+.videos #thumbnails li {
+  width:      330px;
+  height:     275px;
+  padding:    0 14px;
+  margin-bottom:  40px;
+}
+
+.videos #thumbnails h2, 
+.videos #thumbnails h3 {
+  width:        298px;
+  position:     absolute;
+  top:          200px;
+  left:         30px;
+}
+.videos #thumbnails h2 {
+  top:          220px;
+}
+
+.videos #thumbnails div a {
+  width:        330px;
+  height:       190px;
+}
+
+.videos #thumbnails img {
+  height:       180px;
+}
+/* /VIDEO THUMBNAILS */
+
+
+/* EMPTY */
+#thumbnails li.empty, 
+#gallery #thumbnails li.empty, #search #thumbnails li.empty, 
+.videos #thumbnails li.empty {
+  float:        none;
+  clear:        both;
+  height:       0;
+}
+/* /EMPTY */
 
 
 /* FOOTER */

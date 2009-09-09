@@ -18,11 +18,17 @@ a:hover {
 
 
 /* HEADER */
-#logo_screen a, #logo_screen a img {
-  font:               normal 220%/1em "Arial Narrow" Arial;
+#logo_screen a, #logo_screen a em, #logo_screen a img {
+  font:               normal 280%/1em "MyriadPro-Cond", "Myriad Pro Condensed", "Myriad Pro", "Myriad", "Arial Narrow", "Trebuchet MS", Arial, sans-serif;
+  font-stretch:       condensed;
+  letter-spacing:     .02em;
 }
-#logo_screen a img {
+#logo_screen a em, #logo_screen a img {
   font-size:          100%;
+}
+
+#logo_screen a:hover {
+  text-decoration:    none;
 }
 
 #slogan {
@@ -64,3 +70,104 @@ a:hover {
   text-align:         center;
 }
 /* THUMBNAILS */
+
+
+/* SUMMARY */
+#summary {
+  margin:             20px 0;
+/*  outline:                                                1px dotted gray;*/
+}
+
+#summary p {
+  font-size:          80%;
+  line-height:        1.2em;
+}
+
+#summary a {
+  font-weight:        bold;
+  font-size:          80%;
+  letter-spacing:     .2em;
+  text-transform:     uppercase;
+  margin-top:         15px;
+}
+
+#summary #see_data_sheet {
+  display:            block;
+  width:              60px;
+  line-height:        1.2em;
+  float:              left;
+  background:         #292929;
+  padding:       3px 2px 3px 35px;
+  margin-left:        65px;
+/*  display:none;*/
+}
+#summary p > #see_data_sheet {
+  margin-left:        130px;
+}
+
+#summary #go_to_selection {
+  margin-top:         13px;
+  width:              175px;
+  line-height:        1em;
+  padding:       3px 2px 3px 35px;
+  background:         #292929;
+  
+  margin-left:        430px;
+}
+/* /SUMMARY */
+
+
+/* PAGES */
+.pages {
+  padding:            5px 0 7px;
+  border-width:       0 0 1px;
+  border-style:       solid;
+  border-color:       #555;
+  margin:             30px 0;
+  text-align:         center;
+}
+.second {
+  border-width:       1px 0 0;
+}
+
+.pages a {
+  font-size:          80%;
+}
+
+.pages a, .pages strong {
+  padding:             0 .35em;
+}
+
+.pages strong {
+  font-weight:        bold;
+}
+/* /PAGES */
+
+
+/* DATA SHEET */
+#data_sheet li {
+  font-size:          90%;
+  margin:             15px 0;
+  clear:both;
+}
+
+#data_sheet dt {
+  width:        358px;
+/*  height:       40px;*/
+/*    outline:              1px dotted gray;*/
+  float:left;
+  color:#000;
+}
+
+#data_sheet dd {
+  margin-bottom: 10px;
+  width:    358px;
+  float:left;
+/*  height:     30px;*/
+  margin-top:   20px;
+  margin-left: -358px;
+/*  width:        49%;*/
+/*  float:left;*/
+/*  outline:              1px dotted gray;*/
+}
+/* /DATA SHEET */

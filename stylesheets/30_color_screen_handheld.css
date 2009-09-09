@@ -11,7 +11,7 @@ h2 {
 }
 
 
-h1, h1 em, h3 {
+h1, h3 {
   color:            #D74F4F;
 }
 
@@ -28,7 +28,7 @@ input, textarea {
 }
 
 #logo_screen {
-  background:       transparent url(../images/logo_screen_bg.gif) no-repeat center center;
+  background:       transparent url(../images/logo_screen_bg.jpg) no-repeat center center;
 }
 
 #global_search input {
@@ -53,6 +53,9 @@ a:link {
 #logo_screen img {
   color:            #B50000;
 }
+#logo_screen a em {
+  color:            #86FFE2;
+} 
 
 a:visited {
   color:            #AE7365;
@@ -73,5 +76,9 @@ h3 a:link,
 
 .current a {
   color:            #D4CDB2;
+}
+
+#thumbnails a:hover img {
+  border-color:     #D4CDB2;
 }
 /* /LINKING SYSTEM */
